@@ -13,7 +13,6 @@ class AuthController extends Controller
 
     public function __construct(AuthRepositoryInterface $authRepository)
     {
-        // $this->middleware('auth:sanctum')->only(['user', 'logout']);
         $this->authRepository = $authRepository;
     }
 
